@@ -1,0 +1,22 @@
+.header{
+  padding: 36px 0;
+  background-color: rgba(240, 248, 255, 0.506);
+}
+
+.wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:calc(var(--base)/2) var(--base);
+}
+
+.logo{
+  height: 'auto';
+  width: 'auto';
+  cursor: 'pointer';
+}
+
+.hide{
+  display: none;
+}
