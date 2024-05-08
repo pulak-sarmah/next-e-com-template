@@ -12,9 +12,14 @@
   > * {
     text-decoration: none;
   }
+  .activeLink {
+    padding: 0 1rem 0 1rem ;  
+    border-radius: 4px;
+    background-color: rgba(223, 225, 225, 0.904);
+  }
+  @media only screen and (max-width: 640px) {
+
+    display: none;
+  }
 }
 
-.hide {
-  opacity: 0;
-  visibility: hidden;
-}
